@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Jira & GitHub Integration Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, Tahoma, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #0052cc;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #172b4d;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 30px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #0052cc;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        .status {
+            padding: 15px;
+            background-color: #e3fcef;
+            border-left: 5px solid #36b37e;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #172b4d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #0052cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #003d99;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Jira & GitHub Integration</h1>
+    <p>HTML Demo Page for Jira Linking</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#jira">Jira</a>
+    <a href="#github">GitHub</a>
+    <a href="#status">Status</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>📌 About This Page</h2>
+        <p>
+            هذه الصفحة تم إنشاؤها لعرض مثال عملي على ربط
+            <strong>Jira</strong> مع <strong>GitHub</strong>
+            باستخدام ملف HTML مستضاف على GitHub Pages.
+        </p>
+        <p>
+            يمكن استخدام هذا الرابط داخل أي Jira Issue
+            كمرفق أو Demo مباشر للمشروع.
+        </p>
+    </div>
+</section>
+
+<section id="jira">
+    <div class="card">
+        <h2>🧩 Jira Integration</h2>
+        <ul>
+            <li>ربط التذاكر (Issues) مع الكود</li>
+            <li>إظهار Commits و Pull Requests</li>
+            <li>تتبع التقدم البرمجي</li>
+        </ul>
+        <p>
+            تأكد من كتابة رقم التذكرة داخل رسالة الـ Commit.
+        </p>
+        <code>
+            JIRA-101 Initial HTML Demo
+        </code>
+    </div>
+</section>
+
+<section id="github">
+    <div class="card">
+        <h2>🐙 GitHub Repository</h2>
+        <p>
+            هذا الملف مرفوع داخل مستودع GitHub ومفعل عليه GitHub Pages.
+        </p>
+
+        <a class="btn" href="#" onclick="alert('Replace this link with your GitHub repo URL')">
+            View Repository
+        </a>
+    </div>
+</section>
+
+<section id="status">
+    <div class="card">
+        <h2>✅ Project Status</h2>
+        <div class="status">
+            ✔ HTML Page Uploaded<br>
+            ✔ GitHub Pages Enabled<br>
+            ✔ Ready to Link with Jira Issue
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>
+        © 2026 - Jira & GitHub Demo<br>
+        Prepared for University / Project Submission
+    </p>
+</footer>
+
+</body>
+</html>
